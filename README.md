@@ -1,24 +1,15 @@
-# real-world-vue
+# Event List App
 
-## Project setup
-```
-npm install
-```
+This app displays a list of upcoming events and allows the user to click on an individual event to see specific details.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Initial events are retreived through an Axios GET request to the localhost using the json-server package utilizing the db.json file
 
-### Compiles and minifies for production
-```
-npm run build
-```
+To view the app, install json-server, then run json-server --watch db.json
 
-### Lints and fixes files
-```
-npm run lint
-```
+# List of Events
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](src/assets/list-preview.png)
+
+# Event Preview Image
+
+![](src/assets/event-preview.png)
